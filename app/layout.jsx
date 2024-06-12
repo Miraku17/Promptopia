@@ -2,6 +2,7 @@ import "@styles/globals.css";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
+
 export const metadata = {
   title: "Promptopia",
   description: "Discover and share AI prompts",
@@ -20,6 +21,7 @@ const RootLayout = ({ children }) => {
             {children}
           </main>
         </Provider>
+
       </body>
     </html>
   );
